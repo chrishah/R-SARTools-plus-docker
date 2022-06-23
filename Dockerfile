@@ -26,4 +26,4 @@ RUN R -e "devtools::install_github('PF2-pasteur-fr/SARTools@2b95eaa473c20d85f0fa
 	R -e "BiocManager::install('ComplexHeatmap')"
 
 RUN apt-get install -y pandoc texlive
-
+RUN apt-get install -y pandoc-citeproc
